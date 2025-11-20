@@ -40,12 +40,12 @@ DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '.pythonanywhere.com',  # Para PythonAnywhere
-    '.railway.app',
+    '.onrender.com', 
+    '.fly.dev',  
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.pythonanywhere.com',
-    'https://*.railway.app',
+    'https://*.onrender.com',
+    'https://*.fly.dev', 
 ]
 
 # Application definition
