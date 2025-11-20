@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'clave-temporal-para-desarrollo')
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 #SECRET_KEY = 'django-insecure-^esalq8!qx63)6xy8-^by$k=3wj#gl6&12aq7qc#rt_ub7-e)_'
 
@@ -150,3 +150,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 LOGIN_REDIRECT_URL = '/'
+
+
